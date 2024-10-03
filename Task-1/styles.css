@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ae7f7f;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #071f2a;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #0bdb3f;
+    color: white;
+    text-decoration:dotted;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.features .column {
+    float:inline-start;
+    width: 29%;
+    margin: 0vmax;
+    text-align: center;
+    padding: 20px;
+    background-color: #f17878;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(238, 192, 192, 0.1);
+}
+
+.features .column h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features .column p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .features .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
